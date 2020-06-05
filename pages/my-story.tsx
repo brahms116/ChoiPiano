@@ -139,9 +139,9 @@ const Bio = ()=>{
                     text-transform:uppercase;
                     padding: 0 0.875rem;
                 }
+                .hover{}
                 
-                
-                @media(min-width:800px){
+                @media(min-width:799px){
                     .hover{
                         animate:transform 0.5s;
                         cursor:pointer;
@@ -151,9 +151,9 @@ const Bio = ()=>{
     
                     }
                     .hover:active{
-                        transform: translateY(0%);
-    
+                        transform: translateY(0%);    
                     }
+                    
                     .page{
                         margin-left:${281/16}rem;
                     }

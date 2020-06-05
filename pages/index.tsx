@@ -13,7 +13,7 @@ export default function Home() {
           <h2 className="subtitle">Pianist</h2>          
           <h3 className="descrip sd">Pianist: LMUS A, Bch of Music</h3>
           <h3 className="descrip ld">LMUS A, Bch of Music</h3>
-          <Link href="/bio">
+          <Link href="/my-story">
             <div className="bioButton">my story</div>
           </Link>
         </div> 

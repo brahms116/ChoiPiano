@@ -69,8 +69,8 @@ const Navigation = ()=>{
                             <Link href="/" >
                                 <a><div className={path=='/'?'current linkTitle':'linkTitle'}>Home</div></a>
                             </Link>
-                            <Link href="/bio">
-                                <a><div className={path=='/bio'?'current linkTitle':'linkTitle'}>Bio</div></a>
+                            <Link href="/my-story">
+                                <a><div className={path=='/my-story'?'current linkTitle':'linkTitle'}>Bio</div></a>
                             </Link>
                             <Link href="">
                                 <a href="https://www.youtube.com/channel/UCq4GaONJPH1qPpSjiVKTluw" rel="noopener" target="_blank"><div className="linkTitle">YouTube</div></a>
@@ -96,8 +96,8 @@ const Navigation = ()=>{
                     <Link href="/" >
                         <a><div className={path=='/'?'current linkTitle':'linkTitle'}>Home</div></a>
                     </Link>
-                    <Link href="/bio">
-                        <a><div className={path=='/bio'?'current linkTitle':'linkTitle'}>Bio</div></a>
+                    <Link href="/my-story">
+                        <a><div className={path=='/my-story'?'current linkTitle':'linkTitle'}>Bio</div></a>
                     </Link>
                     <Link href="">
                         <a href="https://www.youtube.com/channel/UCq4GaONJPH1qPpSjiVKTluw" rel="noopener" target="_blank"><div className="linkTitle">YouTube</div></a>
