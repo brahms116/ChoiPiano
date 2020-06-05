@@ -8,10 +8,6 @@ type layoutProps = {
 }
 
 const Layout = (props:layoutProps)=>{
-
-    
-
-
     return(
         <div>
             <Head>
