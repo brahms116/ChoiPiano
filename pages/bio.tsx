@@ -139,20 +139,21 @@ const Bio = ()=>{
                     text-transform:uppercase;
                     padding: 0 0.875rem;
                 }
-                .hover{
-                    animate:transform 0.5s;
-                    cursor:pointer;
-                }
-                .hover:hover{
-                    transform: translateY(-5%);
-
-                }
-                .hover:active{
-                    transform: translateY(0%);
-
-                }
+                
                 
                 @media(min-width:800px){
+                    .hover{
+                        animate:transform 0.5s;
+                        cursor:pointer;
+                    }
+                    .hover:hover{
+                        transform: translateY(-5%);
+    
+                    }
+                    .hover:active{
+                        transform: translateY(0%);
+    
+                    }
                     .page{
                         margin-left:${281/16}rem;
                     }

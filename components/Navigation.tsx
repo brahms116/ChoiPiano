@@ -152,15 +152,7 @@ const Navigation = ()=>{
                     flex-direction:column;
                     text-transform:uppercase;
                 }
-                .navItems a{
-                    transition: transform 0.2s;
-                }
-                .navItems a:hover{
-                    transform:translateY(-5%);
-                }
-                .navItems a:active{
-                    transform:translateY(0);
-                }
+                
 
                 .linkTitle{
                     margin-right:9.8vw;   
@@ -217,6 +209,15 @@ const Navigation = ()=>{
 
                     .navItems a{
                         padding:0;
+                    }
+                    .navItems a{
+                        transition: transform 0.2s;
+                    }
+                    .navItems a:hover{
+                        transform:translateY(-5%);
+                    }
+                    .navItems a:active{
+                        transform:translateY(0);
                     }
                     .navItems .current{
                         padding-left:0;

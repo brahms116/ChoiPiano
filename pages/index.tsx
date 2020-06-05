@@ -61,20 +61,21 @@ export default function Home() {
           font-weight:500;
           border-radius:2px;
         }
-        .bioButton:hover{
-          color:white;
-          border:none;
-          background:${Colors.primary};
-          transform:translateY(-5%);
-        }
-        .bioButton:active{
-          transform:translateY(0);
-        }
+        
         .ld{
           display:none
         }
 
         @media(min-width:800px){
+          .bioButton:hover{
+            color:white;
+            border:none;
+            background:${Colors.primary};
+            transform:translateY(-5%);
+          }
+          .bioButton:active{
+            transform:translateY(0);
+          }
           .page{
             flex-direction:row-reverse;
             justify-content:center;

@@ -234,12 +234,7 @@ const Contacts = ()=>{
                     cursor:pointer;
                     font-weight:500;
                 }
-                .submitButton:hover{
-                    transform:translateY(-5%);
-                }
-                .submitButton:active{
-                    transform:translateY(0%);
-                }
+                
 
                 .successBox{
                     display:flex;
@@ -274,6 +269,12 @@ const Contacts = ()=>{
                 }
 
                 @media(min-width:800px){
+                    .submitButton:hover{
+                        transform:translateY(-5%);
+                    }
+                    .submitButton:active{
+                        transform:translateY(0%);
+                    }
                     .page{
                         margin-left:6%;
                     }
