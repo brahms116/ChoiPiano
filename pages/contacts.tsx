@@ -14,6 +14,7 @@ const Contacts = ()=>{
 
     const updateEmail = (e:ChangeEvent<HTMLInputElement>)=>{
         setEmailField(e.target.value)
+        
     }
     const updateMessage = (e:ChangeEvent<HTMLTextAreaElement>)=>{
         setMessageField(e.target.value)
@@ -74,6 +75,8 @@ const Contacts = ()=>{
             })
             setEmailField("")
             setMessageField("")
+            setEmailError("")
+            setMessageError("")
             formControl.start({
                 opacity:1
             })
