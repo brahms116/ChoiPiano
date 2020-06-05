@@ -11,8 +11,7 @@ const Layout = (props:layoutProps)=>{
     return(
         <div>
             <Head>
-                <title>Choi Piano</title>
-                <link rel="preload" href="https://fonts.googleapis.com/css2?family=Raleway:300;400;500;900&display=swap" as="style"></link>
+                <title>Choi Piano</title>s
             </Head>
             <Navigation/>
 
