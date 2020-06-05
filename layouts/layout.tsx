@@ -13,11 +13,7 @@ const Layout = (props:layoutProps)=>{
 
 
     return(
-        <motion.div initial={{opacity:0}} 
-            animate={{opacity:1}} 
-            exit={{opacity:0}} 
-            transition={{when:"beforeChildren",staggerChildren:0.3}}
-        >
+        <div>
             <Head>
                 <title>Choi Piano</title>
                 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Raleway:300;400;500;900&display=swap" as="style"></link>
@@ -28,7 +24,7 @@ const Layout = (props:layoutProps)=>{
             <Navigation/>
 
             <main>{props.children}</main>
-        </motion.div>
+        </div>
     )
 }
 

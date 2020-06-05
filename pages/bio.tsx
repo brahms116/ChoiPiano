@@ -3,6 +3,7 @@ import Colors from '../styles/styles'
 import Data from '../data'
 import Profile from '../media/youtubeprofile.png'
 import Arrow from '../media/arrow.png'
+import Link from 'next/link'
 const Bio = ()=>{
     return(
         <Layout>
@@ -28,7 +29,7 @@ const Bio = ()=>{
                 <h3 className="calltoAction">
                     Send Me A Message!
                 </h3>
-                <a href="/contacts"><button className="footerButton hover">contact me</button></a>
+                <Link href="/contacts"><button className="footerButton hover">contact me</button></Link>
                 <div className="linkGroup">
                     <a className="hover" href="https://www.youtube.com/channel/UCq4GaONJPH1qPpSjiVKTluw" rel="noopener" target="_blank">YouTube</a>
                     <a className="hover" href="">Facebook</a>
