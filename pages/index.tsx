@@ -149,7 +149,7 @@ export default function Home() {
             position:relative;
             left:${402/16}rem;
             display:inline;
-            wdith:auto;
+            width:auto;
             border:none;
             color:white;
             background:${Colors.primary};
@@ -161,3 +161,4 @@ export default function Home() {
     </Layout>
   )
 }
+
