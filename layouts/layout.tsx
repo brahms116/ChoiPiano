@@ -31,6 +31,7 @@ const Layout = (props:layoutProps)=>{
         >
             <Head>
                 <meta content="width=device-width, initial-scale=1" name="viewport" />
+                <meta name="google-site-verification" content="rk_7sUfqgXR4pl42-4GXNq1BUPPU0o4TJEigBxrcZ8A" />
                 <title>{findTitle(router.pathname)}</title>
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;900&display=swap" rel="stylesheet"></link>
                 {/* <style>
