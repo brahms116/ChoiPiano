@@ -42,6 +42,7 @@ const Layout = (props:layoutProps)=>{
             transition={{when:"beforeChildren",staggerChildren:0.3}}
         >
             <Head>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168770266-1"></script>
                 <script>
                     dangerouslySetInnerHtml={{
                         __html:`
