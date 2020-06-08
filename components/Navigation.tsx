@@ -55,7 +55,7 @@ const Navigation = ()=>{
                     <div className='mobileNavBar' onClick={handleClick}>
                         <span className='logo'>CHOI PIANO</span>
                         <motion.div animate={iconControl}>
-                            <img className='burgerMenu'src={menuState? closeMenu:burgerMenu}/>
+                            <img className='burgerMenu'src={menuState? closeMenu:burgerMenu} alt="menu icon for navigation"/>
                         </motion.div>
                     </div>
                 <motion.div 

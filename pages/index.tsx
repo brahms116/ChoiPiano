@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Layout>
       <section className="page">        
-        <img className="profile" src={profile}/>
+        <img className="profile" src={profile} alt="Profile Picture of Samuel Choi"/>
         <div className="text">       
           <h1 className="title">Samuel Choi</h1>
           <h2 className="subtitle">Pianist</h2>          

@@ -19,9 +19,9 @@ const Bio = ()=>{
                 </div>                
                 <div className="youtube">
                     <a href="https://www.youtube.com/watch?v=lf4Pqwsnq7k" rel="noopener" target="_blank">
-                        <img src={Profile} alt="" className="profile"/>
+                        <img src={Profile} className="profile" alt="A profile avatar for Samuel Choi"/>
                         <span className="actionText">Watch me play</span>
-                        <img src={Arrow} alt="" className="arrow"/>
+                        <img src={Arrow} alt="A navigation icon" className="arrow"/>
                     </a>
                 </div>
             </section>

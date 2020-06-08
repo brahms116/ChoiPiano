@@ -109,7 +109,7 @@ const Contacts = ()=>{
                     <motion.div initial={{display:"none",opacity:0}} animate={loaderControl}><div className="loader"></div></motion.div>
                     <motion.div initial={{display:"none",opacity:0}} animate={successControl}>
                         <div className="successBox">
-                            <img src={Tick}/>
+                            <img src={Tick} alt="A success icon"/>
                             <div className="successMessage">message sent</div>
                         </div>
                     </motion.div>
