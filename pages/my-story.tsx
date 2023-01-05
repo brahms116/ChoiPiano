@@ -28,6 +28,8 @@ const Bio = ()=>{
           </div>
           <style jsx>{`
             .container {
+              padding: 1.5rem 1.5rem;
+              box-sizing: border-box;
               display: flex;
               width: 100vw;
               height: 100vh;
