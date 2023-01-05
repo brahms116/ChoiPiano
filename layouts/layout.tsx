@@ -44,29 +44,11 @@ const Layout = (props:layoutProps)=>{
             transition={{when:"beforeChildren",staggerChildren:0.3}}
         >
             <Head>
-                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168770266-1"></script>
-                <script
-                    dangerouslySetInnerHTML={{
-                        __html:`
-                        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168770266-1"></script>
-                        <script>
-                          window.dataLayer = window.dataLayer || [];
-                          function gtag(){dataLayer.push(arguments);}
-                          gtag('js', new Date());            
-                          gtag('config', 'UA-168770266-1');
-                        </script>            
-                        `,
-                        
-                    }}
-                />
                 <meta content="width=device-width, initial-scale=1" name="viewport" />
                 <meta name="google-site-verification" content="rk_7sUfqgXR4pl42-4GXNq1BUPPU0o4TJEigBxrcZ8A" />
                 <meta name="description" content={findMetaDescrip(router.pathname)}/>
                 <title>{findTitle(router.pathname)}</title>
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;900&display=swap" rel="stylesheet"></link>
-                {/* <style>
-                    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;900&display=swap');
-                </style> */}
             </Head>
             <Navigation/>
 
