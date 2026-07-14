@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://samuelchoipiano.com/",
+      "permanent": true
+    }
+  ]
+}
